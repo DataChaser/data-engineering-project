@@ -25,8 +25,8 @@ Normalized with foreign keys and constraints.
 
 ## Getting Started
 
-1. Run `create_tables.sql`  
-2. Run `insert_data.sql`  
-3. (Optional) Run `stored_procedures.sql` and `triggers.sql`  
-4. Use `sample_queries.sql` for exploration  
-5. View `er_diagram.png` for table relationships  
+1. Run create_tables.sql  
+2. Run insert_data.sql  
+3. Run stored_procedures.sql and triggers.sql  
+4. Use sample_queries.sql for exploration  
+5. View er_diagram.png for table relationships  
