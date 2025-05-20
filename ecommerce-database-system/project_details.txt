@@ -1,0 +1,32 @@
+# E-commerce Database System
+
+A SQL-based transactional database simulating a real-world e-commerce setup. 
+This project focuses on customer orders, payments, and business insights using views, stored procedures, and indexing.
+
+## What's Included
+
+- create_database_and_tables.sql – All database tables  
+- insert_data.sql – Realistic dataset (dummy data for portfolio purposes)  
+- stored_procedures.sql – Three procedures for placing orders, user order history, and top spenders  
+- views_and_indexes.sql – Views for reporting and indexes for performance  
+- er_diagram.png – Visual schema overview  
+
+## Schema Overview
+
+- users  
+- addresses  
+- products  
+- inventory  
+- orders  
+- order_items  
+- payments  
+
+Normalized with foreign keys and constraints.
+
+## Getting Started
+
+1. Run create_database_and_tables.sql 
+2. Run insert_data.sql 
+3. Run stored_procedures.sql  
+4. Run views_and_indexes.sql  
+5. View er_diagram.png for table relationships  
