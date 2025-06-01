@@ -1,0 +1,33 @@
+# Retail Chain Database System
+
+A SQL-based system simulating a mid-sized retail chain’s operations. This project models multi-store inventory tracking, user orders, and payment processing, and includes Python client integration.
+
+## What's Included
+
+- `create_tables.sql` – All database tables with constraints
+- `insert_data.sql` – Realistic dataset (dummy data for portfolio use)
+- `view_stored-procedure_trigger.sql` – more sql operations for automation
+- `sql_queries.sql` – Common interview-style SQL queries
+- `retail_client.py` – Python script to interact with MySQL database
+- `er_diagram.png` – Visual schema overview
+
+## Schema Overview
+
+- `users`
+- `stores`
+- `products`
+- `inventory`
+- `orders`
+- `order_items`
+- `payments`
+
+Normalized schema with appropriate constraints and foreign keys.
+
+## Getting Started
+
+1. Run `create_tables.sql`
+2. Run `insert_data.sql`
+3. Run`sample_queries.sql`
+4. Execute `view_stored-procedure_trigger.sql` 
+5. Run `retail_client.py` to interact using Python
+6. Use `er_diagram.png` to understand table relationships
